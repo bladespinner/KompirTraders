@@ -1,0 +1,118 @@
+<html>
+	<head>
+		<link href="Resources/style.css" rel="stylesheet" type="text/css"/>
+		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+		<script src="Resources/jquery-1.9.1.min.js"></script>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<img src="Resources/kompir.png" class="icon"></img>
+			<div class="cutted">
+				<header>
+					<h1>
+						Kompir<span>Traders</span>
+					</h1>
+				</header>
+				<content>
+					<aside>
+						<div class="buttons">
+							<a href="index.html">Home</a>
+							<h2>Potatoes by:</h2>
+							<a href="potato.html">Variety</a>
+							<a href="index.html">Source</a>
+							<a href="index.html">Popularity</a>
+							<h2>More:</h2>
+							<a href="about.html">About</a>
+							<a href="index.html">Subscriptions</a>
+
+						</div>
+					</aside>
+					<div class="main">
+						<div class="product">
+							<img src="Example/potato.jpg" class="potatoImg"/>
+							<div class="potatoInfo">
+								<span>
+									White potato
+									</br>
+									</br>
+									Price : 2.03 $/kg to 2.83 $/kg
+								</span>
+							</div>
+						</div>
+						<div class="product">
+							<img src="Example/potato1.jpg" class="potatoImg"/>
+							<div class="potatoInfo">
+								<span>
+									Brown potato
+									</br>
+									</br>
+									Price : 3.08 $/kg to 4.49 $/kg
+								</span>
+							</div>
+						</div>
+						<div class="product">
+							<img src="Example/potato2.jpg" class="potatoImg"/>
+							<div class="potatoInfo">
+								<span>
+									Batman potato
+									</br>
+									</br>
+									Price : 92.16 $/kg to 144.71 $/kg
+								</span>
+							</div>
+						</div>
+						<div class="product">
+							<img src="Example/potato3.jpg" class="potatoImg"/>
+							<div class="potatoInfo">
+								<span>
+									Black potato
+									</br>
+									</br>
+									Price : 0.19 $/kg  to 0.20 $/kg
+								</span>
+							</div>
+						</div>
+						<div class="product">
+							<img src="Example/potato4.jpg" class="potatoImg"/>
+							<div class="potatoInfo">
+								<span>
+									Royal potato
+									</br>
+									</br>
+									Price : 4.09 $/kg  to 9.43 $/kg
+								</span>
+							</div>
+						</div>
+						<div class="product">
+							<img src="Example/potato5.jpg" class="potatoImg"/>
+							<div class="potatoInfo">
+								<span>
+									End of Times potato
+									</br>
+									</br>
+									Price : 7.48 $/kg  to 13.55 $/kg
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="add">
+					</div>
+				</content>
+				<footer>
+					<span>KompirTraders © All Rights Reserved .</span>
+				</footer>
+			</div>
+		</div>
+		<script>
+			function init()
+			{
+				var ch = $('.potatoImg').height();
+				var ph = $('.product').width();
+				$('.potatoImg').css({'width':ch+'px'});
+				$('.potatoInfo').css({'width':(ph-ch-ph/10)+'px'});
+			}
+			init();
+		</script>
+	</body>
+</html>

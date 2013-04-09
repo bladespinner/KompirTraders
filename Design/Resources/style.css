@@ -258,7 +258,7 @@ content .add
 	border-left:solid 1px white;
 	color:white;
 }
-.source
+content .main  .source
 {
 	position:relative;
 	display:block;
@@ -267,6 +267,50 @@ content .add
 	height:10%;
 	background-color:#2AE02A;
 	border-radius:5px;
+	overflow:hidden;
+	color:white;
+}
+content .main .source .location
+{
+	height:100%;
+	position:absolute;
+	width:35%;
+	left:0%;
+	border-right:solid 1px white;
+	text-align:center;
+}
+content .main .source .filler
+{
+	position:absolute;
+	width:auto;
+	left:36%;
+	left:calc(35% + 2px);
+	right:36%;
+	right:calc(35% + 1px);
+	height:auto;
+	top:1px;
+	bottom:1px;
+	background:white;
+}
+content .main .source .filler span
+{
+	height:100%;
+	width:10%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#6c9bef;
+	display:block;
+	text-align:center;
+}
+content .main .source .price
+{
+	height:100%;
+	position:absolute;
+	left:65%;
+	width:35%;
+	border-left:solid 1px white;
+	text-align:center;
+
 }
 content .main .tenpercent
 {

@@ -320,3 +320,80 @@ content .main .tenpercent
 	color:#6c9bef;
 	text-align:center;
 }
+.leftArrow
+{
+	position:absolute;
+	left:5px;
+	top:5px;
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent; 
+	border-right:30px solid #2AE02A; 
+}
+.leftArrowDisabled
+{
+	position:absolute;
+	left:5px;
+	top:5px;
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent; 
+	border-right:30px solid #5AB05A; 
+}
+.rightArrow
+{
+	position:absolute;
+	right:5px;
+	top:5px;
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent; 
+	border-left:30px solid #2AE02A; 
+}
+.rightArrowDisabled
+{
+	position:absolute;
+	right:5px;
+	top:5px;
+	width: 0; 
+	height: 0; 
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent; 
+	border-left:30px solid #5AB05A; 
+}
+.pages
+{
+	font-size:200%;
+	font-family:Brush Script MT;
+	position:absolute;
+	top:5px;
+	left:40px;
+	right:40px;
+	width:calc(100% - 80px);
+}
+.pages a
+{
+	color:#2AE02A
+}
+.pages .last
+{
+	position:absolute;
+	right:5px;
+}
+.pages .current
+{
+	color:#6c9bef
+}
+.main .textWrap img
+{
+	width:30%;
+	height:50%;
+	box-shadow:1px 1px 5px black;
+}
+.main .textWrap h2
+{
+	text-align:center;
+}

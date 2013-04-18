@@ -30,19 +30,47 @@
 					</aside>
 					<div class="main">
 						<div class="textWrap">
-							<img src="Example/potato.jpg" align="left"></img>
+							<img class="potatoImg" src="Example/potato.jpg" align="left"></img>
 							<h2>White potato</h2>
 							<h2>Source : Plovdiv , Bulgaria</h2>
+							<h3>Price : 3.13$/kg<h3>
+							</br>
+							<h3>
+							The white potato is a good potato , it is common to many places .It is one of the most famous
+							potato types . It is epic.The white potato is a good potato , it is common to many places .It is one of the most famous
+							potato types . It is epic.The white potato is a good potato , it is common to many places .It is one of the most famous
+							potato types . It is epic.
+							</h3>
+							<h3>
+							Plovidiv is a big potato supplier , buy potatos and shit from Plovdiv , you wont regret it , unless we sell bombs to you
+							not potatos , but it doesn't happen too much.Plovidiv is a big potato supplier , buy potatos and shit from Plovdiv , you wont regret it , unless we sell bombs to you
+							not potatos , but it doesn't happen too much.
+							</h3>
 						</div>
 					</div>
 					<div class="add">
+						<form action="orderdetails.html" method="post">
+							<input type="number" value="100" step="10" min="100"></input>
+							<div class="kg">Kg =</div>
+							<input type="text" value="100" step="10" min="100" readonly = "readonly"></input>
+							<div class="kg" >Leva</div>
+							<input type="submit" value="Add To Basket"></input>
+						</form>
 					</div>
-
+		
 				</content>
 				<footer>
 					<span>KompirTraders ?All Rights Reserved .</span>
 				</footer>
 			</div>
 		</div>
+		<script>
+			function init()
+			{
+				var ch = $('.potatoImg').height();
+				$('.potatoImg').css({'width':ch+'px'});
+			}
+			init();
+		</script>
 	</body>
 </html>

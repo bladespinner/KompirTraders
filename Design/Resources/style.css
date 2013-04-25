@@ -12,6 +12,14 @@ a
 {
 	text-decoration:none;
 }
+input[type="text"],input[type="number"]
+{
+	border-color:#0AB00A;
+	border-radius:5px;
+	overflow:hidden;
+	color:#2AE02A;
+	font-family:Goudy Old Style;
+}
 span
 {
 	font-family:Brush Script MT;
@@ -397,18 +405,33 @@ content .main .tenpercent
 {
 	text-align:center;
 }
-content .add form input[type="number"] ,content .add form input[type="text"] ,content .add form input[type="submit"] 
+content .add form .search
+{
+	margin-top:3.5%;
+	margin-left:4%;
+	width:70%;
+	height:40%;
+	top:15%;
+}
+content .add form .defaultInput
 {
 	float:left;
-	color:#2AE02A;
-	position:relative;
 	margin-right:1%;
+	margin-top:5px;
 	width:20%;
 	height:70%;
-	margin-top:5px;
+}
+content .add form input[type="number"] ,content .add form input[type="text"] ,content .add form input[type="submit"] 
+{
+	color:#2AE02A;
+	position:relative;
 	left:0%;
 	font-size:200%;
 	font-family:Goudy Old Style;
+}
+content .main a
+{
+	text-decoration:bold;
 }
 content .main .order
 {
@@ -428,6 +451,21 @@ content .main .order .potato , content .main .order .buy
 	width:25%;
 	height:100%;
 	left:0%;
+}
+content .main .searchResult
+{
+	display:block;
+	padding:0;
+	top:0;
+	left:0;
+	height:10%;
+	position:relative;
+	width:100%;
+	text-align:center;
+	background:#2AE02A;
+	color:white;
+	margin-top:0%;
+	margin-bottom:0%;
 }
 content .main .order .potato
 {
@@ -499,28 +537,42 @@ content .main .order .total
 	border-radius:10px;
 	background:#6c9bef;
 }
-content .main .accept
+content .main .center
 {
-	text-align:center;
 	position:absolute;
 	width:50%;
-	height:50%;
+	height:100%;
 	left:25%;
-	top:25%;
+	top:0%;
 }
-content .main .accept form
+content .main .whitespace
+{
+	position:relative;
+	width:1px;
+	height:5%;
+}
+content .main .center form
 {
 	position:absolute;
 	width:100%;
 	height:100%;
 }
-content .main .accept form input[type="submit"] 
+content .main .center form .label
 {
-	position:absolute;
-	bottom:20%;
-	left:0;
+	position:relative;
+	height:1em;
+	margin-bottom:2px;
+}
+content .main .center form input
+{
 	width:100%;
-	height:40%;
+	height:15$;
+}
+content .main .center form input[type="submit"] 
+{
+	position:relative;
+	top:5%;
+	left:0;
 	color:white;
 	font-size:120%;
 	background:#EEEEFF;

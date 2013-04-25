@@ -1,13 +1,13 @@
 <html>
 	<head>
-		<link href="../Resources/style.css" rel="stylesheet" type="text/css"/>
+		<link href="Resources/style.css" rel="stylesheet" type="text/css"/>
 		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
-		<script src="../Resources/jquery-1.9.1.min.js"></script>
+		<script src="Resources/jquery-1.9.1.min.js"></script>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	</head>
 	<body>
 		<div class="wrapper">
-			<img src="../Resources/kompir.png" class="icon"></img>
+			<img src="Resources/kompir.png" class="icon"></img>
 			<div class="cutted">
 				<header>
 					<h1>
@@ -29,14 +29,23 @@
 						</div>
 					</aside>
 					<div class="main">
-						<div class="center">
-							<form>
-								<h2>Accept Order</h2>
-								<div class="label">Do you wish to buy the items you selected <a href="orderdetails.html">here</a></div>
-								<div class="whitespace"></div>
-								<input type="submit" value="Accept"></input>
-							</form>
-						</div>
+
+							<h2>
+							Search results for "White potato":
+							</h2>
+							<br/>
+							<a href="Product/product.html?id=51" class="searchResult">White potato</a>
+							<br/>
+							<a href="Product/potatosource.html?page=0&ptvar=33" class="searchResult">White potato sources</a>
+							<br/>
+							<a href="Product/potato.html?page=0&ptsrc=15" class="searchResult">Potatos from plovdiv</a>
+
+					</div>
+					<div class="add">
+						<form>
+							<input class="search" type="text"></input>
+							<input type="submit" class="defaultInput" value="Search"></input>
+						</form>
 					</div>
 				</content>
 				<footer>
